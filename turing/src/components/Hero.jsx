@@ -21,7 +21,9 @@ const Hero = () => {
           </p>
           <div className='flex gap-4 mb-8'>
             <Button size='large'>Hire Developers</Button>
-            <Button size='large'>Explore Custom Engineering</Button>
+            <Button variant='outline' size='large'>
+              Explore Custom Engineering
+            </Button>
           </div>
           <div className='flex items-baseline'>
             <p className='text-sm mr-2'>Looking for remote job opportunities?</p>

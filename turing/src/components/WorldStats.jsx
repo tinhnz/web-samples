@@ -26,8 +26,10 @@ const WorldStats = () => {
             </div>
           </div>
           <div className='mt-16'>
-            <Button size='large'>Hire Developers</Button>
-            <Button size='large' className='ml-4'>
+            <Button color='secondary' size='large'>
+              Hire Developers
+            </Button>
+            <Button color='secondary' variant='outline' size='large' className='ml-4'>
               Apply for Jobs
             </Button>
           </div>

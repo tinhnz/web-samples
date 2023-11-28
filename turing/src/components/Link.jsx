@@ -6,8 +6,8 @@ const Link = ({ children, type, className }) => {
     textStyle = 'text-[--color-placeholder]';
     lineStyle = 'h-0.5 bg-[--color-placeholder]';
   } else if (type === 'body') {
-    textStyle = 'text-[--color-link]';
-    lineStyle = 'h-0.5 bg-[--color-link]';
+    textStyle = 'text-primary';
+    lineStyle = 'h-0.5 bg-primary';
   }
 
   return (

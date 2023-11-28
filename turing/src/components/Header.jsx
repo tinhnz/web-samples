@@ -26,7 +26,7 @@ const Header = () => {
 
         {/* Right side */}
         <div className='flex items-center gap-4'>
-          <Button>Apply for Jobs</Button>
+          <Button variant='outline'>Apply for Jobs</Button>
           <Button>Hire Developers</Button>
           <p>Login</p>
         </div>
