@@ -1,6 +1,7 @@
 import promo1 from './assets/promo1.svg';
 import promo2 from './assets/promo2.svg';
 import promo3 from './assets/promo3.svg';
+import promo4 from './assets/promo4.svg';
 import Button from './components/Button';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -8,6 +9,10 @@ import Banner from './components/Banner';
 import Headline from './components/Headline';
 import Stats from './components/Stats';
 import WorldStats from './components/WorldStats';
+import People from './components/People';
+import Partners from './components/Partners';
+import Hire from './components/Hire';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -91,21 +96,21 @@ const App = () => {
 
       <WorldStats />
 
-      {/* Promo 3 */}
+      {/* Promo 4 */}
       <section className='py-16'>
         <div className='container grid grid-cols-2 gap-32 items-center justify-center'>
-          <div className='order-2'>
-            <img src={promo3} alt='promo3' />
+          <div className='flex justify-center'>
+            <img src={promo4} alt='promo4' />
           </div>
           <div>
-            <p className='text-sm uppercase font-bold text-[#737373]'>For developers</p>
-            <h3 className='text-3xl font-medium mt-2 mb-4'>
-              Get AI-matched to high-paying U.S. tech jobs
+            <h3 className='text-4xl/[54px] font-medium mb-4'>
+              Why are the best developers joining Turing? They want careers, not gigs.
             </h3>
-            <p className='text-lg mb-8'>
-              Once you pass our vetting process, you’ll enjoy opportunities with top clients who
-              need your expert skills.
-            </p>
+            <ul className='list-disc list-inside mb-8'>
+              <li className='text-xl my-3'>Vetted once, eligible for life</li>
+              <li className='text-xl my-3'>Exclusive Turing developer success support</li>
+              <li className='text-xl my-3'>Income stability thanks to 99% rematch rate</li>
+            </ul>
             <div className='flex gap-4'>
               <Button size='large'>Apply for Jobs</Button>
             </div>
@@ -113,7 +118,10 @@ const App = () => {
         </div>
       </section>
 
-      <section className='py-16'></section>
+      <People />
+      <Partners />
+      <Hire />
+      <Footer />
     </>
   );
 };
