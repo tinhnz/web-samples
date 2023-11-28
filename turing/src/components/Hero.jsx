@@ -1,5 +1,6 @@
 import hero from '../assets/hero.svg';
 import Button from './Button';
+import Link from './Link';
 
 const Hero = () => {
   return (
@@ -22,11 +23,11 @@ const Hero = () => {
             <Button size='large'>Hire Developers</Button>
             <Button size='large'>Explore Custom Engineering</Button>
           </div>
-          <div>
-            <span className='text-sm mr-2'>Looking for remote job opportunities?</span>
-            <a href='#' className='text-sm font-medium'>
+          <div className='flex items-baseline'>
+            <p className='text-sm mr-2'>Looking for remote job opportunities?</p>
+            <Link type='body' className='text-sm font-medium'>
               Apply for Jobs
-            </a>
+            </Link>
           </div>
         </div>
       </div>

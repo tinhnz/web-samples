@@ -1,5 +1,6 @@
 import logo from '../assets/logo.svg';
 import Button from './Button';
+import Link from './Link';
 
 const Header = () => {
   return (
@@ -10,9 +11,15 @@ const Header = () => {
           <img src={logo} alt='logo' />
           <nav>
             <ul className='flex gap-4'>
-              <li>Explore Services</li>
-              <li>Explore Developers</li>
-              <li>Explore Jobs</li>
+              <li>
+                <Link>Explore Services</Link>
+              </li>
+              <li>
+                <Link>Explore Developers</Link>
+              </li>
+              <li>
+                <Link>Explore Jobs</Link>
+              </li>
             </ul>
           </nav>
         </div>
