@@ -2,7 +2,6 @@ import promo1 from './assets/promo1.svg';
 import promo2 from './assets/promo2.svg';
 import promo3 from './assets/promo3.svg';
 import promo4 from './assets/promo4.svg';
-import Button from './components/Button';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Banner from './components/Banner';
@@ -13,6 +12,7 @@ import People from './components/People';
 import Partners from './components/Partners';
 import Hire from './components/Hire';
 import Footer from './components/Footer';
+import LinkButton from './components/LinkButton';
 
 const App = () => {
   return (
@@ -39,7 +39,9 @@ const App = () => {
               Quickly and efficiently build your engineering team with our deeply vetted talent.
             </p>
             <div className='flex gap-4'>
-              <Button size='large'>Hire Developers</Button>
+              <LinkButton to='#' size='large'>
+                Hire Developers
+              </LinkButton>
             </div>
           </div>
         </div>
@@ -62,7 +64,9 @@ const App = () => {
               AI-accelerated delivery for faster project completion.
             </p>
             <div className='flex gap-4 mb-8'>
-              <Button size='large'>More about Custom Engineering</Button>
+              <LinkButton to='#' size='large'>
+                More about Custom Engineering
+              </LinkButton>
             </div>
           </div>
         </div>
@@ -84,7 +88,9 @@ const App = () => {
               need your expert skills.
             </p>
             <div className='flex gap-4'>
-              <Button size='large'>Apply for Jobs</Button>
+              <LinkButton to='#' size='large'>
+                Apply for Jobs
+              </LinkButton>
             </div>
           </div>
         </div>
@@ -112,7 +118,9 @@ const App = () => {
               <li className='text-xl my-3'>Income stability thanks to 99% rematch rate</li>
             </ul>
             <div className='flex gap-4'>
-              <Button size='large'>Apply for Jobs</Button>
+              <LinkButton to='#' size='large'>
+                Apply for Jobs
+              </LinkButton>
             </div>
           </div>
         </div>

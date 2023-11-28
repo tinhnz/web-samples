@@ -1,4 +1,4 @@
-import Button from './Button';
+import LinkButton from './LinkButton';
 import world from '../assets/world.svg';
 
 const WorldStats = () => {
@@ -26,12 +26,12 @@ const WorldStats = () => {
             </div>
           </div>
           <div className='mt-16'>
-            <Button color='secondary' size='large'>
+            <LinkButton color='secondary' size='large'>
               Hire Developers
-            </Button>
-            <Button color='secondary' variant='outline' size='large' className='ml-4'>
+            </LinkButton>
+            <LinkButton color='secondary' variant='outline' size='large' className='ml-4'>
               Apply for Jobs
-            </Button>
+            </LinkButton>
           </div>
         </div>
         <div className='absolute top-16 right-32 z-0'>

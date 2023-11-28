@@ -1,4 +1,4 @@
-import Button from './Button';
+import LinkButton from './LinkButton';
 
 const Hire = () => {
   return (
@@ -10,7 +10,9 @@ const Hire = () => {
           <br />
           not weeks.
         </p>
-        <Button>Hire Developers</Button>
+        <LinkButton to='#' size='large'>
+          Hire Developers
+        </LinkButton>
       </div>
     </section>
   );
