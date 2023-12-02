@@ -6,6 +6,7 @@
 
 :root {
   --color-text: #212121;
+  --color-footer-link: #ccc;
   --container-width: 1208px;
   --gutter: 32px;
 }

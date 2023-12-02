@@ -3,8 +3,8 @@ const Link = ({ children, type, className }) => {
   let textStyle = 'text-[--color-text]';
   let lineStyle = 'h-1 bg-[--color-text]';
   if (type === 'footer') {
-    textStyle = 'text-[--color-placeholder]';
-    lineStyle = 'h-0.5 bg-[--color-placeholder]';
+    textStyle = 'text-[--color-footer-link]';
+    lineStyle = 'h-0.5 bg-[--color-footer-link]';
   } else if (type === 'body') {
     textStyle = 'text-primary';
     lineStyle = 'h-0.5 bg-primary';
